@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Merriweather", serif;
+}
+/* 1st banner st */
+.banner-container{
+    width: 1320px;
+    border: 2px solid orangered;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(../images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.banner-content p{
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+}
+.banner-content h1{
+    font-size: 72px;
+    color: white;
+    font-weight: 900;
+}
+/* 1st banner end */
+
+/* 2nd banner st */
+.second-banner-container{
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.second-banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-banner-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.second-banner-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.second-banner-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+   
+}
+.second-section-img{
+    width: 802.9px;
+    height: 500px;
+    
+}
+.second-section-img img{
+    width: 100%;
+}
+
+/* 2nd banner end */
+
+/* 3rd section st */
+.midnight-party-container{
+    width: 1320px;
+    height: 600px;
+   background-image: url(../images/vector.png);
+   background-color: rgba(0, 0, 0, 0.5);
+   background-blend-mode: overlay;
+   margin: 0 auto;
+   margin-top: 220px;
+   display: flex;
+   
+}
+.leftside-content{
+    width: 50%;
+    height: 600px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 126px;
+}
+.leftside-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+.leftside-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.rightside-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fourth section st */
+.time{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.time h3{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.color{
+    color: #FF0000;
+}
+.btn-primary{
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* fourth section end */
+
+/* fifth section st */
+
+.fifth-section{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+.fifth-section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.first-div{
+    width: 33%;
+    float: left;
+
+}
+.first-div h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.first-div h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.first-div p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-div{
+    width: 463px;
+    height: 463px;
+    border-radius: 50%;
+    border: 15px solid rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    
+}
+.second-div img{
+    width: 370px;
+}
+
+.third-div{
+    width: 33%;
+    float: left;
+    
+
+}
+.third-div h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+.third-div p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 80px;
+}
+.third-div img{
+    margin-left: 80px;
+}
+
+/* sixth section st  */
+.sixth-section-container{
+    width: 1320px;
+    height: 986px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+}
+.sixth-section-content{
+    text-align: center;
+}
+.sixth-section-content h6{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+}
+.sixth-section-content h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sixth-section-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.solid-color{
+    width: 1320px;
+    height: 230px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
+}
+.gift-box {
+    width: 675px;
+    height: 578px;
+    position: absolute;
+    top: 55%;
+}
+.gift-box img{
+    width: 70%;
+    
+}
+.discount {
+    width: 675px;
+    height: 578px;
+    position: absolute;
+    top: 55%;
+    right: 18%;
+}
+.discount img{
+    width: 70%;  
+}
+/* sixthe section end */
+/* seventh section st */
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.portfolio-container h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio-container h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolio-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.iteam{
+    width: 424px;
+    height: 450px;
+}
+.portfolio-iteam{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+/* seventh section end */
+
+/* Eight section st */
+.news-latter-container{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.news-latter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.news-latter h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.news-latter p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.news-latter img{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+}
+.input-field {
+    flex: 1;
+    padding: 27px 60px;
+    border: 1px solid #ccc;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+.subscribe-button {
+    padding: 27px 60px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Eight section end */
+
+/* Nine section st */
+
+.footer-container{
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: rgb(7, 2, 17);
+}
+
+.first-section-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 120px;
+} 
+.contact{
+    margin-top: 120px;
+}
+.social-icon{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+   
+}
+.copyright-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 120px;
+}
